@@ -1,18 +1,12 @@
-import { MainLayout, HomeTemplate } from "../templates.js";
+import { MainLayout, HomeTemplate, Navigation } from "../templates.js";
 
-export function HomeShow () {
-    const data = {
-        PageLanguage: 'en',
-        PageTitle: 'The Last Holocron',
-        body: HomeTemplate()
+export async function HomeShow () {
+    const layoutData = {
+        "PageLanguage": 'en',
+        "PageTitle": 'The Last Holocron',
+        "Body": await HomeTemplate(),
+        "Navigation": await Navigation()
     }
 
-    const template = MainLayout(data);
-
-    return new Response(template, {
-        status: 200,
-        headers: {
-            "content-type": "text/html",
-        },
-    });
+    return MainLayout(layoutData);
 }

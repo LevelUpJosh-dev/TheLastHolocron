@@ -1,4 +1,8 @@
+/** Pages **/
 import MainLayout from './views/layouts/main.js'
 import HomeTemplate from './views/pages/home.js'
 
-export { MainLayout, HomeTemplate }
+/** Partials **/
+import Navigation from './views/partials/navigation.js'
+
+export { MainLayout, HomeTemplate, Navigation }
