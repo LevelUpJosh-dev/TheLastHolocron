@@ -18,9 +18,6 @@ export default async () => {
                 <a class="nav-link active ${NavLinks.Home.classes}" aria-current="page" href="${NavLinks.Home.href}">
                     ${NavLinks.Home.text0}
                 </a>
-                <a class="${NavLinks.Swapi.classes}" href="${NavLinks.Swapi.href}">
-                    ${NavLinks.Swapi.text0}
-                </a>
                 <a class="${NavLinks.About.classes}" href="${NavLinks.About.href}">
                     ${NavLinks.About.text0}
                 </a>
@@ -36,7 +33,6 @@ export default async () => {
           <footer class="mt-auto text-white-50">
             <p>${Footer.text0}</p>
             <p class="text-white-25">${Footer.text1}</p>
-            <button class="btn btn-lg">Submit Something</button>
           </footer>
         </div>
     `
