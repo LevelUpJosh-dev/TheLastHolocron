@@ -36,6 +36,7 @@ export default async () => {
           <footer class="mt-auto text-white-50">
             <p>${Footer.text0}</p>
             <p class="text-white-25">${Footer.text1}</p>
+            <button class="btn btn-lg">Submit Something</button>
           </footer>
         </div>
     `
