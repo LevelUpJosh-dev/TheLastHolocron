@@ -19,6 +19,11 @@ server.get('/', async (request, response) => {
     response.send();
 });
 
+server.get('/about', async (request, response) => {
+    response.body = await AboutShow();
+    response.send();
+});
+
 server.get('/swapi', async (request, response) => {
     const swapi = await GetSwapiRoot();
     swapi.json().then((data) => {
@@ -26,11 +31,6 @@ server.get('/swapi', async (request, response) => {
         response.body = JSON.stringify(data);
         response.send();
      });
-})
-
-server.get('/about', async (request, response) => {
-    response.body = await AboutShow();
-    response.send();
 });
 
 server.listen(3000)
