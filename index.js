@@ -6,6 +6,7 @@ import staticFiles from "https://deno.land/x/static_files@1.1.6/mod.ts";
 
 /** Custom Modules **/
 import { HomeShow } from './controllers/Home.js';
+import { AboutShow } from './controllers/About.js';
 import { GetSwapiRoot } from './controllers/Swapi.js';
 
 /** Start Our Server **/
@@ -26,5 +27,10 @@ server.get('/swapi', async (request, response) => {
         response.send();
      });
 })
+
+server.get('/about', async (request, response) => {
+    response.body = await AboutShow();
+    response.send();
+});
 
 server.listen(3000)

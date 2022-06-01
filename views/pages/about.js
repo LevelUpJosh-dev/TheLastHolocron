@@ -1,11 +1,13 @@
 import loadJsonFile from "https://deno.land/x/load_json_file@v1.0.0/mod.ts";
 
 export default async () => {
-    const data = await loadJsonFile("views/pages/home.json");
-    const { Footer, Main, NavLinks, Header } = data;
+    const data = await loadJsonFile("views/pages/about.json");
+    const homeData = await loadJsonFile("views/pages/home.json");
+    const { Main, Footer } = data;
+    const { Header, NavLinks } = homeData;
 
     return `
-        <meta name="theme-color" content="#7952b3">
+<meta name="theme-color" content="#7952b3">
         <link rel="stylesheet" href="home.css" >
         <body class="d-flex h-100 text-center text-white bg-dark">
 
@@ -15,22 +17,22 @@ export default async () => {
             <div>
               <h2 class="${Header.classes}">${Header.text0}</h2>
               <nav class="my-3 nav nav-masthead justify-content-center float-md-end">
-                <a class="nav-link active ${NavLinks.Home.classes}" aria-current="page" href="${NavLinks.Home.href}">
+                <a class="nav-link ${NavLinks.Home.classes}" aria-current="page" href="${NavLinks.Home.href}">
                     ${NavLinks.Home.text0}
                 </a>
                 <a class="${NavLinks.Swapi.classes}" href="${NavLinks.Swapi.href}">
                     ${NavLinks.Swapi.text0}
                 </a>
-                <a class="${NavLinks.About.classes}" href="${NavLinks.About.href}">
+                <a class="active ${NavLinks.About.classes}" href="${NavLinks.About.href}">
                     ${NavLinks.About.text0}
                 </a>
               </nav>
             </div>
           </header>
-        
+        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
           <main class="px-3">
-            <h3>${Main.text0}</h3>
-            <p class="lead">${Main.text1}</p>
+            <p class="lead">${Main.text0}</p>
+            <p>${Main.text1}</p>
           </main>
         
           <footer class="mt-auto text-white-50">
