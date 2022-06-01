@@ -6,15 +6,15 @@ export default async () => {
 
     return `
         <meta name="theme-color" content="#7952b3">
-            <link href="cover.css" rel="stylesheet">
-          </head>
-          <body class="d-flex h-100 text-center text-white bg-dark">
-            
+        <link rel="stylesheet" href="home.css" >
+        <body class="d-flex h-100 text-center text-white bg-dark">
+
         <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+          <img id="logo" src="logo.jpg" class="rounded my-4 w-25 h-25 mx-auto" alt="logo image">
           <header class="mb-auto">
             <div>
               <h2 class="${Header.classes}">${Header.text0}</h2>
-              <nav class="nav nav-masthead justify-content-center float-md-end">
+              <nav class="my-3 nav nav-masthead justify-content-center float-md-end">
                 <a class="nav-link active ${NavLinks.Home.classes}" aria-current="page" href="${NavLinks.Home.href}">
                     ${NavLinks.Home.text0}
                 </a>
