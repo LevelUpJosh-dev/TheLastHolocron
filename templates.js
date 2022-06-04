@@ -1,9 +1,9 @@
 /** Pages **/
-import MainLayout from './views/layouts/main.js';
-import HomeTemplate from './views/pages/home.js';
-import AboutTemplate from './views/pages/about.js';
+import MainLayout from "./views/layouts/Main/main.js";
+import HomeTemplate from "./views/pages/Home/home.js";
+import AboutTemplate from "./views/pages/About/about.js";
 
 /** Partials **/
-import Navigation from './views/partials/navigation.js'
+import Navigation from "./views/partials/Navigation/navigation.js";
 
-export { MainLayout, AboutTemplate, HomeTemplate, Navigation }
+export { AboutTemplate, HomeTemplate, MainLayout, Navigation };
