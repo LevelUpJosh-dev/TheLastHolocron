@@ -1,5 +1,5 @@
-function BaseStyles () {
-    return `
+function BaseStyles() {
+  return `
         /*
      * Globals
      */
@@ -55,7 +55,7 @@ function BaseStyles () {
         color: #fff;
         border-bottom-color: #fff;
     }
-    `
+    `;
 }
 
 export { BaseStyles };
