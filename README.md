@@ -43,10 +43,9 @@ You must never leave it to another to act in your place.
 
 - J#d# Master L#k# Sk#walker
 
----
 
-I am one with the force, and the force is one with me..
 
----
+### I am one with the force, and the force is one with me..
 
-## May the force be with you...
+
+May the force be with you...
