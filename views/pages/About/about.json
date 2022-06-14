@@ -1,9 +1,7 @@
 {
   "Main": {
-    "Text": [
-      "A passion project, combining star wars and web development.",
-      "I plan to build an interactive growing web of information and associations within the star wars universe."
-    ]
+    "PrimaryText": "A passion project, combining star wars and web development.",
+    "SecondaryText": "I plan to build an interactive growing web of information and associations within the star wars universe."
   },
   "Footer": {
     "Text": [
