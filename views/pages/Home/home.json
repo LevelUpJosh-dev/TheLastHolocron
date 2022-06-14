@@ -1,37 +1,33 @@
 {
   "Header": {
     "Classes": "float-md-start mb-0",
-    "Text": ["The Last Holocron"]
+    "PrimaryText": "The Last Holocron"
   },
   "NavLinks": {
     "Home": {
       "Classes": "nav-link",
-      "Text": ["Home"],
+      "PrimaryText": "Archives",
       "Href": "/"
     },
     "Swapi": {
       "Classes": "nav-link",
-      "Text": ["Swapi"],
+      "PrimaryText": "Swapi",
       "Href": "/swapi"
     },
     "About": {
       "Classes": "nav-link",
-      "Text": ["About"],
+      "PrimaryText": "About",
       "Href": "/about"
     }
   },
   "Main": {
     "Classes": "container",
-    "Text": [
-      "Coming soon...",
-      "I am one with the force, and the force is one with me."
-    ]
+    "PrimaryText": "Coming soon...",
+    "SecondaryText": "I am one with the force, and the force is one with me."
   },
   "Footer": {
     "Classes": "text-center",
-    "Text": [
-      "A project by @RedVanJosh",
-      "Powered by Deno"
-    ]
+    "PrimaryText": "A project by @RedVanJosh",
+    "SecondaryText": "Powered by Deno"
   }
 }

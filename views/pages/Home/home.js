@@ -15,26 +15,26 @@ export default async () => {
           <img id="logo" src="logo.jpg" class="rounded my-4 w-25 h-25 mx-auto" alt="logo image">
           <header class="mb-auto">
             <div>
-              <h2 class="${Header.Classes}">${Header.Text[0]}</h2>
+              <h2 class="${Header.Classes}">${Header.PrimaryText}</h2>
               <nav class="my-3 nav nav-masthead justify-content-center float-md-end">
                 <a class="nav-link active ${NavLinks.Home.Classes}" aria-current="page" href="${NavLinks.Home.Href}">
-                    ${NavLinks.Home.Text[0]}
+                    ${NavLinks.Home.PrimaryText}
                 </a>
                 <a class="${NavLinks.About.Classes}" href="${NavLinks.About.Href}">
-                    ${NavLinks.About.Text[0]}
+                    ${NavLinks.About.PrimaryText}
                 </a>
               </nav>
             </div>
           </header>
 
           <main class="px-3">
-            <h3>${Main.Text[0]}</h3>
-            <p class="lead">${Main.Text[1]}</p>
+            <h3>${Main.PrimaryText}</h3>
+            <p class="lead">${Main.SecondaryText}</p>
           </main>
 
           <footer class="mt-auto text-white-50">
-            <p>${Footer.Text[0]}</p>
-            <p class="text-white-25">${Footer.Text[1]}</p>
+            <p>${Footer.PrimaryText}</p>
+            <p class="text-white-25">${Footer.SecondaryText}</p>
           </footer>
         </div>
     `;
