@@ -1,0 +1,20 @@
+{
+    "ProfileImage": "https://static.wikia.nocookie.net/starwars/images/4/4e/ObiWanHS-SWE.jpg",
+    "Name": "Obi-Wan Kenobi",
+    "Species": "Human",
+    "BirthPlace": "Unknown",
+    "Master": {
+        "display": "Qui-Gon Jinn",
+        "data": "quiGonJinn"
+    },
+    "Padawan": "Anakin Skywalker",
+    "Peers": "Yoda, Mace Windu, Cody",
+    "Status": "One with the force",
+    "Designation": "Jedi Master",
+    "Location": "Omnipresent",
+    "Age": "57",
+    "LightsaberCombat": "97",
+    "ForceAbility": "90",
+    "KnowledgeOfTheForce": "80",
+    "HandToHandCombat": "85"
+}

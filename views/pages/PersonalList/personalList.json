@@ -1,0 +1,26 @@
+{
+    "QuiGonJinn": {
+        "display": "Qui-Gon Jinn",
+        "data": "quiGonJinn"
+    },
+    "ObiwanKenobi": {
+        "display": "Obi-wan Kenobi",
+        "data": "obiwanKenobi"
+    },
+    "MaceWindu": {
+        "display": "Mace Windu",
+        "data": "maceWindu"
+    },
+    "Yoda": {
+        "display": "Yoda",
+        "data": "yoda"
+    },
+    "Darth Vader": {
+        "display": "Darth Vader",
+        "data": "darthVader"
+    },
+    "Darth Sidious": {
+        "display": "Darth Sidious",
+        "data": "darthSidious"
+    }
+}
