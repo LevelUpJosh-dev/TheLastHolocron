@@ -8,8 +8,7 @@ export default async () => {
 
   return `
         <meta name="theme-color" content="#7952b3"/>
-        <body class="d-flex h-100 text-center text-white bg-dark">
-        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column text-white">
           <img id="logo" src="logo.jpg" class="rounded my-4 w-25 h-25 mx-auto" alt="logo image" />
           <header class="mb-auto">
             <div>

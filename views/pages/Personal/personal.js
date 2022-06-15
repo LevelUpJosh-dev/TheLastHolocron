@@ -11,7 +11,7 @@ export default async (query) => {
               <nav aria-label="breadcrumb" class="main-breadcrumb">
                 <ol class="breadcrumb">
                   <li class="breadcrumb-item"><a href="/">Home</a></li>
-                  <li class="breadcrumb-item"><a href="/">Personal Records</a></li>
+                  <li class="breadcrumb-item"><a href="/personal/records">Personal Records</a></li>
                   <li class="breadcrumb-item active" aria-current="page">${person.Name}</li>
                 </ol>
               </nav>
@@ -21,20 +21,46 @@ export default async (query) => {
                   <div class="card">
                     <div class="card-body">
                       <div class="d-flex flex-column align-items-center">
-                        <img src="${person.ProfileImage}" alt="profile-image" width="250">
+                        <img src="${person.ProfileImage}" alt="profile-image" width="75%" height="75%">
                         <div class="mt-3">
-                          <h4 class="text-center">${person.Name}</h4>
-                          <p class="text-secondary mb-1">Birth Place: ${person.BirthPlace}</p>
-                          <p class="text-secondary mb-1">Designation: ${person.Designation}</p>
-                          <p class="text-secondary mb-1">Status: ${person.Status}</p>
-                          <p class="text-secondary mb-1">Current Location: ${person.Location}</p>
-                          <p class="text-secondary mb-1">Age: ${person.Age}</p>
+                          <h4>${person.Name}</h4>
+                          <p class="text-secondary mb-1"><span class="font-weight-bold">
+                            <span>Species:</span>
+                            </span>${person.Species}
+                            </p>
+                          <p class="text-secondary mb-1">
+                            <span class="font-weight-bold">Designation:</span> 
+                            <span>${person.Designation}</span>
+                          </p>
+                          <p class="text-secondary mb-1">
+                            <span class="font-weight-bold">Birth Place:</span>
+                            <span>${person.BirthPlace}</span>
+                          </p>
+                          <p class="text-secondary mb-1">
+                            <span class="font-weight-bold">Current Location:</span>
+                            <span>${person.Location}</span>
+                          </p>
+                          <p class="text-secondary mb-1">
+                            <span class="font-weight-bold">Status:</span>
+                            <span>${person.Status}</span>
+                          </p>
+                          <p class="text-secondary mb-1"><span class="font-weight-bold">Age:</span> ${person.Age}</p>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="card mt-3">
                     <ul class="list-group list-group-flush">
+                        <li class="list-group-item text-secondary">
+                            <span class="font-weight-bold">Master:</span> 
+                            <a href="/archives/personal/records?name=${person.Master.data}">${person.Master.display}</a>
+                        </li>
+                        <li class="list-group-item text-secondary">
+                            <span class="font-weight-bold">Padawan:</span> ${person.Padawan}
+                        </li>
+                        <li class="list-group-item text-secondary">
+                            <span class="font-weight-bold">Peers:</span> ${person.Peers}
+                        </li>
                     </ul>
                   </div>
                 </div>

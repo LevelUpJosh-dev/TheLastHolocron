@@ -1,0 +1,21 @@
+{
+    "ProfileImage": "https://static.wikia.nocookie.net/starwars/images/f/f6/Qui-Gon_Jinn_Headshot_TPM.jpg",
+    "Name": "Qui-Gon Jinn",
+    "Species": "Human",
+    "BirthPlace": "Coruscant",
+    "Master": {
+        "display": "Count Dooku",
+        "data": "countDooku"
+    },
+    "Padawan": "Obi-Wan Kenobi",
+    "Peers": "Quinlan Vos, Yoda, Plo Koon, Depa Billaba",
+    "Status": "One with the force",
+    "Designation": "Jedi Master",
+    "Location": "Omnipresent",
+    "Age": "52",
+    "LightsaberCombat": "75",
+    "ForceAbility": "100",
+    "KnowledgeOfTheForce": "100",
+    "HandToHandCombat": "100",
+    "LightSaberCraft": "100"
+}

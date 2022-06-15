@@ -1,0 +1,21 @@
+{
+    "ProfileImage": "https://static.wikia.nocookie.net/starwars/images/f/fc/Mace_Windu.jpg",
+    "Name": "Mace Windu",
+    "Species": "Human",
+    "BirthPlace": "Haruun Kal",
+    "Master": {
+        "display": "Cyslin Myr",
+        "data": "cyslinMyr"
+    },
+    "Padawan": "Depa Billaba",
+    "Peers": "Obiwan Kenobi, Mace Windu, Qui Gon Jinn",
+    "Status": "One with the force",
+    "Designation": "Jedi Grand Master",
+    "Location": "Omnipresent",
+    "Age": "47",
+    "LightsaberCombat": "100",
+    "ForceAbility": "100",
+    "KnowledgeOfTheForce": "90",
+    "HandToHandCombat": "100",
+    "LightSaberCraft": "100"
+}

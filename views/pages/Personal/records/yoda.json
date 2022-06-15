@@ -1,12 +1,20 @@
 {
-    "ProfileImage": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/2149428958/settings_images/RNKY6VRQMmsL0fGCBqXV_Yoda_wallpaper.jpeg",
+    "ProfileImage": "https://static.wikia.nocookie.net/starwars/images/d/d6/Yoda_SWSB.png",
     "Name": "Yoda",
-    "Birthplace": "Unknown",
+    "Species": "Unknown",
+    "BirthPlace": "Unknown",
+    "Master": {
+        "display": "Unknown",
+        "data": "Unknown"
+    },
+    "Padawan": "Count Dooku",
+    "Peers": "Obiwan Kenobi, Mace Windu, Qui Gon Jinn",
     "Status": "One with the force",
     "Designation": "Jedi Grand Master",
     "Location": "Omnipresent",
-    "Age": "900 years",
+    "Age": "900",
     "LightsaberCombat": "96",
     "ForceAbility": "100",
-    "HandToHandCombat": "85"
+    "KnowledgeOfTheForce": "100",
+    "HandToHandCombat": "75"
 }
